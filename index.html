@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="pallete.js"></script>
+        <script src="render.js"></script>
+        <script src="getmapdata.js"></script>
+        <script src="sizecanvas.js"></script>
+        <script src="clearcanvas.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <select id="maps">
+            <option value="">- Select a map -</option>
+        </select>
+        <br>
+        <label>Scale</label>
+        <br>
+        <input type="range" min="1" max="8" value="1" id="scale">
+        <br>
+        <h3 id="maptitle"></h3>
+        <br>
+        <canvas width=128 height=128 id="map" style="margin:0;"></canvas>
+    </body>
+</html>
