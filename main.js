@@ -39,11 +39,9 @@ window.onload = async function(){
             const selectedMapImage = renderImage(selectedMapData);
             printImage(canvas, selectedMapImage, scaleSlider.value, mapPiece.x, mapPiece.y);
         }
-        const selectedMapData = await getMapData(selectedMap);
-        const testimagedata = renderImage(selectedMapData);
-        printImage(canvas, testimagedata, scaleSlider.value);
     }
     scaleSlider.onchange = async function(){
+        if(mapslist.value == '') return;
         const selectedMap = mapData[mapslist.value];
         maptitle.innerHTML = selectedMap.name;
         sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value)
@@ -52,8 +50,5 @@ window.onload = async function(){
             const selectedMapImage = renderImage(selectedMapData);
             printImage(canvas, selectedMapImage, scaleSlider.value, mapPiece.x, mapPiece.y);
         }
-        const selectedMapData = await getMapData(selectedMap);
-        const testimagedata = renderImage(selectedMapData);
-        printImage(canvas, testimagedata, scaleSlider.value);
     }    
 }

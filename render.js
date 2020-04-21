@@ -1,7 +1,7 @@
 function renderImage(mapColorData){
+    
     var imagePixelArray = new Uint8ClampedArray(128*128*4);
     for(pixelIndex = 0; pixelIndex < 16384; pixelIndex++){
-
         var pixelColor = mapColors[mapColorData[pixelIndex]];
         imagePixelArray.set(pixelColor, pixelIndex*4);
         imagePixelArray[pixelIndex*4+3] = 255;
