@@ -22,14 +22,3 @@ function printImage(canvas, imageData, scale, x=0, y=0){
     
     helpercanvas.remove();
 }
-
-// function drawImage(canvas, scaling, map){
-//     const imageData = map.chunk_inefficient(128);
-//     var ctx = canvas.getContext("2d");
-//     for(horizontal = 0; horizontal < 128; horizontal++){
-//         for(vertical = 0; vertical < 128; vertical++){
-//             ctx.fillStyle = oldMapColors[imageData[horizontal][vertical]];
-//             ctx.fillRect(vertical*scaling,horizontal*scaling,scaling,scaling);
-//         }
-//     }
-// }

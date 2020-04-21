@@ -1,23 +1,13 @@
 window.onload = async function(){
-    // Object.defineProperty(Array.prototype, 'chunk_inefficient', {
-    //     value: function(chunkSize) {
-    //         var array = this;
-    //         return [].concat.apply([],
-    //         array.map(function(elem, i) {
-    //             return i % chunkSize ? [] : [array.slice(i, i + chunkSize)];
-    //         })
-    //         );
-    //     }
-    // });
+
     const mapJson = await fetch('maps.json');
     const mapData = await mapJson.json();
-    // const testMapData = await getMapData(mapData[0]);
-    // console.log(testMapData);
 
     var mapslist = document.getElementById('maps');
     var scaleSlider = document.getElementById('scale');
     var canvas = document.getElementById('map');
     var maptitle = document.getElementById('maptitle');
+    var mapauthor = document.getElementById('author');
     
     for(map in mapData){
         var helperOption = document.createElement('option');
@@ -33,6 +23,7 @@ window.onload = async function(){
         }
         const selectedMap = mapData[this.value];
         maptitle.innerHTML = selectedMap.name;
+        mapauthor.innerHTML = selectedMap.authors.join(', ');
         sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value)
         for(mapPiece of selectedMap.maps){
             const selectedMapData = await getMapData(mapPiece.id);
@@ -44,6 +35,7 @@ window.onload = async function(){
         if(mapslist.value == '') return;
         const selectedMap = mapData[mapslist.value];
         maptitle.innerHTML = selectedMap.name;
+        mapauthor.innerHTML = selectedMap.authors.join(' ');
         sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value)
         for(mapPiece of selectedMap.maps){
             const selectedMapData = await getMapData(mapPiece.id);
