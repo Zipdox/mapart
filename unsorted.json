@@ -2832,5 +2832,20 @@
                 "id": 27644
             }
         ]
+    },
+    "156": {
+        "name": "Guts' Rage",
+        "authors": [
+            "Xray_Doc"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 25122
+            }
+        ]
     }
 }
