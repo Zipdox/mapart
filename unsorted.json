@@ -2869,17 +2869,22 @@
         ]
     },
     "156": {
-        "name": "Slovenian Flag",
+        "name": "Zastava Slovenie",
         "authors": [
             "Klemenator"
         ],
-        "width": 1,
+        "width": 2,
         "height": 1,
         "maps": [
             {
                 "x": 0,
                 "y": 0,
-                "id": 30492
+                "id": 30677
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "id": 30674
             }
         ]
     },
