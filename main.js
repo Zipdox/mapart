@@ -71,7 +71,6 @@ window.onload = async function(){
         if(foundMap != undefined){
             const selectedMap = mapData[foundMap];
             maptitle.innerHTML = selectedMap.name;
-            window.location.hash = "#" + encodeURIComponent(selectedMap.tinametle);
             mapAuthor.innerHTML = selectedMap.authors.join(', ');
             sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value);
             for(mapPiece of selectedMap.maps){
