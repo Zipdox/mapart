@@ -24,8 +24,9 @@ window.onload = async function(){
         }
         const selectedMap = mapData[this.value];
         maptitle.innerHTML = selectedMap.name;
+        window.location.hash = "#" + encodeURIComponent(selectedMap.name);
         mapAuthor.innerHTML = selectedMap.authors.join(', ');
-        sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value)
+        sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value);
         for(mapPiece of selectedMap.maps){
             const selectedMapData = await getMapData(mapPiece.id);
             const selectedMapImage = renderImage(selectedMapData);
@@ -36,8 +37,9 @@ window.onload = async function(){
         if(mapslist.value == '') return;
         const selectedMap = mapData[mapslist.value];
         maptitle.innerHTML = selectedMap.name;
+        window.location.hash = "#" + encodeURIComponent(selectedMap.name);
         mapAuthor.innerHTML = selectedMap.authors.join(' ');
-        sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value)
+        sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value);
         for(mapPiece of selectedMap.maps){
             const selectedMapData = await getMapData(mapPiece.id);
             const selectedMapImage = renderImage(selectedMapData);
@@ -56,4 +58,28 @@ window.onload = async function(){
             mapslist.appendChild(helperOption);
         }
     });
+    const urlID = window.location.hash.slice(1);
+    if(urlID.length > 0){
+        decodedUrlID = decodeURIComponent(urlID);
+        var foundMap;
+        for(mapNum in mapData){
+            if(mapData[mapNum].name == decodedUrlID){
+                foundMap = mapNum;
+                break;
+            }
+        }
+        if(foundMap != undefined){
+            const selectedMap = mapData[foundMap];
+            maptitle.innerHTML = selectedMap.name;
+            window.location.hash = "#" + encodeURIComponent(selectedMap.tinametle);
+            mapAuthor.innerHTML = selectedMap.authors.join(', ');
+            sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value);
+            for(mapPiece of selectedMap.maps){
+                const selectedMapData = await getMapData(mapPiece.id);
+                const selectedMapImage = renderImage(selectedMapData);
+                printImage(canvas, selectedMapImage, scaleSlider.value, mapPiece.x, mapPiece.y);
+            }
+        }
+        
+    }
 }
