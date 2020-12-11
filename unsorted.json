@@ -5501,6 +5501,20 @@
                 "id": 17910
             }
         ]
+    },
+    "283": {
+        "name": "This is bait.",
+        "authors": [
+            "Zipdox"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 18679
+            }
+        ]
     }
 }
-
