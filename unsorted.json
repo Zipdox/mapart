@@ -5581,7 +5581,7 @@
     "288": {
         "name": "404_",
         "authors": [
-            "unknown"
+            "Koze_404"
         ],
         "width": 1,
         "height": 1,
@@ -5735,6 +5735,36 @@
                 "x": 2,
                 "y": 1,
                 "id": 19397
+            }
+        ]
+    },
+    "297": {
+        "name": "Buy Kiwibrand",
+        "authors": [
+            "TheConmeister"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 19705
+            }
+        ]
+    },
+    "298": {
+        "name": "Christmas 2020",
+        "authors": [
+            "unknown"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 19926
             }
         ]
     }
