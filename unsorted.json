@@ -5868,5 +5868,20 @@
                 "id": 20221
             }
         ]
+    },
+    "301": {
+        "name": "Pizza Cat",
+        "authors": [
+            "snowslushy"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 20205
+            }
+        ]
     }
 }
