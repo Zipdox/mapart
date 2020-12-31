@@ -2,24 +2,112 @@ window.onload = async function(){
 
     const mapJson = await fetch('maps.json');
     window.mapData = await mapJson.json();
-
+    
     window.mapslist = document.getElementById('maptable');
     window.quality = document.getElementById('quality');
     window.canvas = document.getElementById('map');
     window.maptitle = document.getElementById('maptitle');
     window.mapAuthor = document.getElementById('author');
     window.searchBar = document.getElementById('search');
-    
-    for(map in mapData){
-        const entry = createEntry(mapData[map]);
-        mapslist.appendChild(entry);
+
+    window.sortByName = document.getElementById('sortByName');
+    window.sortByAuthors = document.getElementById('sortByAuthors');
+    window.sortBySize = document.getElementById('sortBySize');
+
+    var invertSort = {name: false, authors: false, size: false};
+    function sortBy(maps){
+        sortedMaps = [...maps];
+        updateTableHeaders();
+        switch(sortParameter){
+            case 'name':
+                if(!invertSort.name){
+                    sortedMaps.sort((a, b) => (a.name > b.name) ? 1 : -1);
+                }else{
+                    sortedMaps.sort((a, b) => (a.name < b.name) ? 1 : -1);
+                }
+                break;
+            case 'authors':
+                if(!invertSort.authors){
+                    sortedMaps.sort((a, b) => (a.authors.join(', ') > b.authors.join(', ')) ? 1 : -1);
+                }else{
+                    sortedMaps.sort((a, b) => (a.authors.join(', ') < b.authors.join(', ')) ? 1 : -1);
+                }
+                break;
+            case 'size':
+                if(!invertSort.size){
+                    sortedMaps.sort((a, b) => (a.width * a.height > b.width * b.height) ? 1 : -1);
+                }else{
+                    sortedMaps.sort((a, b) => (a.width * a.height < b.width * b.height) ? 1 : -1);
+                }
+                break;
+            default:
+                return;
+        }
+        return sortedMaps;
+    }
+
+    function loadTable(maps){
+        for(i = mapslist.children.length - 1; i>=0; i--){
+            if(mapslist.children[i].className == "entry") mapslist.children[i].remove();
+        }
+        for(map of maps){
+            const entry = createEntry(map);
+            mapslist.appendChild(entry);
+        }
+    }
+
+    window.sortParameter = 'name';
+    window.currentMaps = sortBy(mapData);
+    invertSort.name = !invertSort.name;
+
+    function updateTableHeaders(){
+        sortByName.textContent = 'Title';
+        sortByAuthors.textContent = 'Authors';
+        sortBySize.textContent = 'Size';
+        switch(sortParameter){
+            case 'name':
+                if(!invertSort.name) sortByName.textContent = 'Title↓'
+                else sortByName.textContent = 'Title↑';
+                break;
+            case 'authors':
+                if(!invertSort.authors) sortByAuthors.textContent = 'Authors↓'
+                else sortByAuthors.textContent = 'Authors↑';
+                break;
+            case 'size':
+                if(!invertSort.size) sortBySize.textContent = 'Size↓'
+                else sortBySize.textContent = 'Size↑';
+                break;
+            default:
+                break;
+        }
+    }
+
+    loadTable(currentMaps);
+
+    sortByName.onclick = function(){
+        if(sortParameter != 'name') invertSort.name = false;
+        sortParameter = 'name';
+        loadTable(sortBy(currentMaps));
+        invertSort.name = !invertSort.name;
+    }
+    sortByAuthors.onclick = function(){
+        if(sortParameter != 'authors') invertSort.authors = false;
+        sortParameter = 'authors';
+        loadTable(sortBy(currentMaps));
+        invertSort.authors = !invertSort.authors;
+    }
+    sortBySize.onclick = function(){
+        if(sortParameter != 'size') invertSort.size = false;
+        sortParameter = 'size';
+        loadTable(sortBy(currentMaps));
+        invertSort.size = !invertSort.size;
     }
 
     quality.onchange = async function(){
         if(shownMap == undefined) return;
         maptitle.innerHTML = shownMap.name;
         window.location.hash = "#" + encodeURIComponent(shownMap.name);
-        mapAuthor.innerHTML = shownMap.authors.join(' ');
+        mapAuthor.innerHTML = shownMap.authors.join(', ');
         sizeCanvas(shownMap.width, shownMap.height, quality.value);
         for(mapPiece of shownMap.maps){
             const selectedMapData = await getMapData(mapPiece.id);
@@ -32,19 +120,17 @@ window.onload = async function(){
         for(i = mapslist.children.length - 1; i>=0; i--){
             if(mapslist.children[i].className == "entry") mapslist.children[i].remove();
         }
-        for(map in mapData){
-            const selectedMap = mapData[map];
+        var mapResults = [];
+        for(selectedMap of mapData){
             const queryWords = this.value.toLowerCase().split(' ');
             var match = true;
             for(word of queryWords){
-                if(!selectedMap.name.toLowerCase().includes(word) && !selectedMap.authors.join(' ').toLowerCase().includes(word)) match = false;
+                if(!selectedMap.name.toLowerCase().includes(word) && !selectedMap.authors.join(', ').toLowerCase().includes(word)) match = false;
             }
-            if(match){
-                const entry = createEntry(selectedMap);
-                mapslist.appendChild(entry);
-            }
-            
+            if(match) mapResults.push(selectedMap);
         }
+        currentMaps = mapResults;
+        loadTable(sortBy(mapResults))
     });
     
     canvas.onclick = function(){
@@ -58,24 +144,23 @@ window.onload = async function(){
     if(urlID.length > 0){
         decodedUrlID = decodeURIComponent(urlID);
         var foundMap;
-        for(mapNum in mapData){
-            if(mapData[mapNum].name == decodedUrlID){
-                foundMap = mapNum;
+        for(map of mapData){
+            if(map.name == decodedUrlID){
+                foundMap = map;
                 break;
             }
         }
-        if(foundMap != undefined){
-            const selectedMap = mapData[foundMap];
-            window.shownMap = selectedMap;
-            maptitle.innerHTML = selectedMap.name;
-            mapAuthor.innerHTML = selectedMap.authors.join(', ');
-            sizeCanvas(selectedMap.width, selectedMap.height, quality.value);
-            for(mapPiece of selectedMap.maps){
-                const selectedMapData = await getMapData(mapPiece.id);
-                const selectedMapImage = renderImage(selectedMapData);
-                printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
-            }
+
+        if(foundMap == undefined) return;
+
+        window.shownMap = foundMap;
+        maptitle.innerHTML = foundMap.name;
+        mapAuthor.innerHTML = foundMap.authors.join(', ');
+        sizeCanvas(foundMap.width, foundMap.height, quality.value);
+        for(mapPiece of foundMap.maps){
+            const selectedMapData = await getMapData(mapPiece.id);
+            const selectedMapImage = renderImage(selectedMapData);
+            printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
         }
-        
     }
 }

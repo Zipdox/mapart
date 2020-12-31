@@ -1,5 +1,5 @@
-{
-    "0": {
+[
+    {
         "name": "#TeamCoke > #TeamSprite",
         "authors": [
             "Hayor"
@@ -14,7 +14,7 @@
             }
         ]
     },
-    "1": {
+    {
         "name": "#TeamSprite > #TeamCoke",
         "authors": [
             "ianmc05",
@@ -30,7 +30,7 @@
             }
         ]
     },
-    "2": {
+    {
         "name": "18618",
         "authors": [
             "unknown"
@@ -45,7 +45,7 @@
             }
         ]
     },
-    "3": {
+    {
         "name": "19127",
         "authors": [
             "unknown"
@@ -60,7 +60,7 @@
             }
         ]
     },
-    "4": {
+    {
         "name": "1milx",
         "authors": [
             "unknown"
@@ -100,7 +100,7 @@
             }
         ]
     },
-    "5": {
+    {
         "name": "1x Pencil's Spawn Base",
         "authors": [
             "unknown"
@@ -115,7 +115,7 @@
             }
         ]
     },
-    "6": {
+    {
         "name": "404_",
         "authors": [
             "Koze_404"
@@ -130,7 +130,7 @@
             }
         ]
     },
-    "7": {
+    {
         "name": ":thinking:",
         "authors": [
             "Hayor"
@@ -145,7 +145,7 @@
             }
         ]
     },
-    "8": {
+    {
         "name": "A.C.A.B.",
         "authors": [
             "Anvilize"
@@ -160,7 +160,7 @@
             }
         ]
     },
-    "9": {
+    {
         "name": "A7X",
         "authors": [
             "unknown"
@@ -175,7 +175,7 @@
             }
         ]
     },
-    "10": {
+    {
         "name": "ACAB",
         "authors": [
             "wilfree6969"
@@ -190,7 +190,7 @@
             }
         ]
     },
-    "11": {
+    {
         "name": "Ahegao",
         "authors": [
             "kittychew"
@@ -205,7 +205,7 @@
             }
         ]
     },
-    "12": {
+    {
         "name": "Alita",
         "authors": [
             "Dubzlinger"
@@ -235,7 +235,7 @@
             }
         ]
     },
-    "13": {
+    {
         "name": "All good.",
         "authors": [
             "JoeyC9",
@@ -251,7 +251,7 @@
             }
         ]
     },
-    "14": {
+    {
         "name": "AlwaysOcean - 001",
         "authors": [
             "unknown"
@@ -266,7 +266,7 @@
             }
         ]
     },
-    "15": {
+    {
         "name": "Android",
         "authors": [
             "Hayor"
@@ -281,7 +281,7 @@
             }
         ]
     },
-    "16": {
+    {
         "name": "Antifascist Action",
         "authors": [
             "Demon568"
@@ -296,7 +296,7 @@
             }
         ]
     },
-    "17": {
+    {
         "name": "Antisocial",
         "authors": [
             "Dubzlinger"
@@ -311,7 +311,7 @@
             }
         ]
     },
-    "18": {
+    {
         "name": "Arch Illager Crystal God",
         "authors": [
             "unknown"
@@ -326,7 +326,7 @@
             }
         ]
     },
-    "19": {
+    {
         "name": "Arch Logo",
         "authors": [
             "Cukon"
@@ -341,7 +341,7 @@
             }
         ]
     },
-    "20": {
+    {
         "name": "Around Blacks Never Relax",
         "authors": [
             "Hayor"
@@ -356,7 +356,7 @@
             }
         ]
     },
-    "21": {
+    {
         "name": "Artemis-1",
         "authors": [
             "KiwiSlider"
@@ -371,7 +371,7 @@
             }
         ]
     },
-    "22": {
+    {
         "name": "Astartes",
         "authors": [
             "BakedAccent"
@@ -391,7 +391,7 @@
             }
         ]
     },
-    "23": {
+    {
         "name": "Astolfo",
         "authors": [
             "CookieOfGods"
@@ -421,7 +421,7 @@
             }
         ]
     },
-    "24": {
+    {
         "name": "Asuna Tentai",
         "authors": [
             "unknown"
@@ -436,7 +436,7 @@
             }
         ]
     },
-    "25": {
+    {
         "name": "Autism Speaks",
         "authors": [
             "Meth"
@@ -451,7 +451,7 @@
             }
         ]
     },
-    "26": {
+    {
         "name": "Ave Slavek!",
         "authors": [
             "MRX"
@@ -466,7 +466,7 @@
             }
         ]
     },
-    "27": {
+    {
         "name": "AwesomeFaceWallpaper",
         "authors": [
             "Dubzlinger"
@@ -521,7 +521,7 @@
             }
         ]
     },
-    "28": {
+    {
         "name": "Ayanami: Ikari-kun...",
         "authors": [
             "Zipdox",
@@ -607,7 +607,7 @@
             }
         ]
     },
-    "29": {
+    {
         "name": "BANG",
         "authors": [
             "Torbben"
@@ -622,7 +622,7 @@
             }
         ]
     },
-    "30": {
+    {
         "name": "BMO",
         "authors": [
             "Torbben"
@@ -637,7 +637,7 @@
             }
         ]
     },
-    "31": {
+    {
         "name": "Bad Dragon",
         "authors": [
             "DukeTheDragon"
@@ -652,7 +652,7 @@
             }
         ]
     },
-    "32": {
+    {
         "name": "Based Ideology",
         "authors": [
             "Demon568"
@@ -667,7 +667,7 @@
             }
         ]
     },
-    "33": {
+    {
         "name": "Beauty and the Machine",
         "authors": [
             "Demon568"
@@ -707,7 +707,7 @@
             }
         ]
     },
-    "34": {
+    {
         "name": "Belle Delphine",
         "authors": [
             "Third_Right"
@@ -737,7 +737,7 @@
             }
         ]
     },
-    "35": {
+    {
         "name": "Bendy & The Ink Machine",
         "authors": [
             "superfire01"
@@ -752,7 +752,7 @@
             }
         ]
     },
-    "36": {
+    {
         "name": "Benis :D :D :D",
         "authors": [
             "Hayor"
@@ -767,7 +767,7 @@
             }
         ]
     },
-    "37": {
+    {
         "name": "Bernie",
         "authors": [
             "Anvilize"
@@ -782,7 +782,7 @@
             }
         ]
     },
-    "38": {
+    {
         "name": "Birthday Cake",
         "authors": [
             "WHGAT"
@@ -797,7 +797,7 @@
             }
         ]
     },
-    "39": {
+    {
         "name": "Black Hole Sun",
         "authors": [
             "dom_mld"
@@ -812,7 +812,7 @@
             }
         ]
     },
-    "40": {
+    {
         "name": "Black Rose",
         "authors": [
             "unknown"
@@ -827,7 +827,7 @@
             }
         ]
     },
-    "41": {
+    {
         "name": "Blank Map",
         "authors": [
             "LaQuixote"
@@ -842,7 +842,7 @@
             }
         ]
     },
-    "42": {
+    {
         "name": "Blondes have more fun!",
         "authors": [
             "VargaGirl"
@@ -872,7 +872,7 @@
             }
         ]
     },
-    "43": {
+    {
         "name": "Bowie",
         "authors": [
             "VargaGirl"
@@ -887,7 +887,7 @@
             }
         ]
     },
-    "44": {
+    {
         "name": "Breakcore Gives Me Wood",
         "authors": [
             "Dubzlinger"
@@ -902,7 +902,7 @@
             }
         ]
     },
-    "45": {
+    {
         "name": "Brill Town",
         "authors": [
             "unknown"
@@ -917,7 +917,7 @@
             }
         ]
     },
-    "46": {
+    {
         "name": "Brimmstone",
         "authors": [
             "unknown"
@@ -947,7 +947,7 @@
             }
         ]
     },
-    "47": {
+    {
         "name": "Buy Kiwibrand",
         "authors": [
             "TheConmeister"
@@ -962,7 +962,7 @@
             }
         ]
     },
-    "48": {
+    {
         "name": "C&C GDI Logo",
         "authors": [
             "Third_Right"
@@ -977,7 +977,7 @@
             }
         ]
     },
-    "49": {
+    {
         "name": "C&C Nod logo",
         "authors": [
             "Third_Right"
@@ -992,7 +992,7 @@
             }
         ]
     },
-    "50": {
+    {
         "name": "C&C Scrin Logo",
         "authors": [
             "Third_Right"
@@ -1007,7 +1007,7 @@
             }
         ]
     },
-    "51": {
+    {
         "name": "CNC Militants",
         "authors": [
             "Third_Right"
@@ -1022,7 +1022,7 @@
             }
         ]
     },
-    "52": {
+    {
         "name": "CREEP PAPER",
         "authors": [
             "II_DRTYDAWG_II"
@@ -1052,7 +1052,7 @@
             }
         ]
     },
-    "53": {
+    {
         "name": "CUP",
         "authors": [
             "unknown"
@@ -1067,7 +1067,7 @@
             }
         ]
     },
-    "54": {
+    {
         "name": "Catacomb Kids",
         "authors": [
             "unknown"
@@ -1082,7 +1082,7 @@
             }
         ]
     },
-    "55": {
+    {
         "name": "Che Boxxy",
         "authors": [
             "Astrokie"
@@ -1097,7 +1097,7 @@
             }
         ]
     },
-    "56": {
+    {
         "name": "Christmas 2019",
         "authors": [
             "dvddy"
@@ -1112,7 +1112,7 @@
             }
         ]
     },
-    "57": {
+    {
         "name": "Christmas 2020",
         "authors": [
             "unknown"
@@ -1127,7 +1127,7 @@
             }
         ]
     },
-    "58": {
+    {
         "name": "Christmas Pepe '19",
         "authors": [
             "Squidiz"
@@ -1142,7 +1142,7 @@
             }
         ]
     },
-    "59": {
+    {
         "name": "Command Block",
         "authors": [
             "IamExit"
@@ -1157,7 +1157,7 @@
             }
         ]
     },
-    "60": {
+    {
         "name": "Connect Fuhrer",
         "authors": [
             "Psironyx"
@@ -1172,7 +1172,7 @@
             }
         ]
     },
-    "61": {
+    {
         "name": "Constantiam Quarterly",
         "authors": [
             "Nyroc_"
@@ -1187,7 +1187,7 @@
             }
         ]
     },
-    "62": {
+    {
         "name": "Crazy",
         "authors": [
             "unknown"
@@ -1202,7 +1202,7 @@
             }
         ]
     },
-    "63": {
+    {
         "name": "Creeporium",
         "authors": [
             "dmonki"
@@ -1217,7 +1217,7 @@
             }
         ]
     },
-    "64": {
+    {
         "name": "Cross - Justice",
         "authors": [
             "PeekaBooPepper"
@@ -1232,7 +1232,7 @@
             }
         ]
     },
-    "65": {
+    {
         "name": "Crystal Castles",
         "authors": [
             "wilfree6969"
@@ -1247,7 +1247,7 @@
             }
         ]
     },
-    "66": {
+    {
         "name": "CuBoyd QR Code",
         "authors": [
             "CuBoyd"
@@ -1262,7 +1262,7 @@
             }
         ]
     },
-    "67": {
+    {
         "name": "Cuboyd Computer 4",
         "authors": [
             "Yakhi"
@@ -1277,7 +1277,7 @@
             }
         ]
     },
-    "68": {
+    {
         "name": "Cuboyd Computer 5",
         "authors": [
             "unknown"
@@ -1292,7 +1292,7 @@
             }
         ]
     },
-    "69": {
+    {
         "name": "Cuboyd Computer 6",
         "authors": [
             "CuBoyd"
@@ -1307,7 +1307,7 @@
             }
         ]
     },
-    "70": {
+    {
         "name": "Cuboyd Sphinx",
         "authors": [
             "Yakhi"
@@ -1322,7 +1322,7 @@
             }
         ]
     },
-    "71": {
+    {
         "name": "Cuboyd hate",
         "authors": [
             "SubZxro"
@@ -1337,7 +1337,7 @@
             }
         ]
     },
-    "72": {
+    {
         "name": "DIO",
         "authors": [
             "Boppler"
@@ -1352,7 +1352,7 @@
             }
         ]
     },
-    "73": {
+    {
         "name": "DOOM",
         "authors": [
             "Astrokie"
@@ -1382,7 +1382,7 @@
             }
         ]
     },
-    "74": {
+    {
         "name": "Dark Side of the Moon",
         "authors": [
             "mtS_"
@@ -1397,7 +1397,7 @@
             }
         ]
     },
-    "75": {
+    {
         "name": "Dark Souls 2",
         "authors": [
             "dom_mld"
@@ -1427,7 +1427,7 @@
             }
         ]
     },
-    "76": {
+    {
         "name": "Dead Kennedys",
         "authors": [
             "Anvilize"
@@ -1442,7 +1442,7 @@
             }
         ]
     },
-    "77": {
+    {
         "name": "Dogomonogo",
         "authors": [
             "Ozon"
@@ -1467,7 +1467,7 @@
             }
         ]
     },
-    "78": {
+    {
         "name": "Don't Forget",
         "authors": [
             "Dubzlinger"
@@ -1537,7 +1537,7 @@
             }
         ]
     },
-    "79": {
+    {
         "name": "Donald's Day Off",
         "authors": [
             "NiclasXD14",
@@ -1553,7 +1553,7 @@
             }
         ]
     },
-    "80": {
+    {
         "name": "Dragon's Keep",
         "authors": [
             "Hurt"
@@ -1568,7 +1568,7 @@
             }
         ]
     },
-    "81": {
+    {
         "name": "Eagle Eye",
         "authors": [
             "BakedAccent"
@@ -1583,7 +1583,7 @@
             }
         ]
     },
-    "82": {
+    {
         "name": "Edwin Baker",
         "authors": [
             "RussianFlipFlop"
@@ -1598,7 +1598,7 @@
             }
         ]
     },
-    "83": {
+    {
         "name": "End 0 0",
         "authors": [
             "unknown"
@@ -1613,7 +1613,7 @@
             }
         ]
     },
-    "84": {
+    {
         "name": "Evedel",
         "authors": [
             "Evedel"
@@ -1633,7 +1633,7 @@
             }
         ]
     },
-    "85": {
+    {
         "name": "FAACE",
         "authors": [
             "unknown"
@@ -1648,7 +1648,7 @@
             }
         ]
     },
-    "86": {
+    {
         "name": "FBI Logo",
         "authors": [
             "Zipdox"
@@ -1678,7 +1678,7 @@
             }
         ]
     },
-    "87": {
+    {
         "name": "FREE CUBOYD",
         "authors": [
             "unknown"
@@ -1693,7 +1693,7 @@
             }
         ]
     },
-    "88": {
+    {
         "name": "FREE CUBOYD 2",
         "authors": [
             "dom_mld",
@@ -1709,7 +1709,7 @@
             }
         ]
     },
-    "89": {
+    {
         "name": "FUCK YOU!",
         "authors": [
             "lombardozzi8"
@@ -1724,7 +1724,7 @@
             }
         ]
     },
-    "90": {
+    {
         "name": "Fire Nation",
         "authors": [
             "Zipdox",
@@ -1812,7 +1812,7 @@
             }
         ]
     },
-    "91": {
+    {
         "name": "Fitmc",
         "authors": [
             "unknown"
@@ -1827,7 +1827,7 @@
             }
         ]
     },
-    "92": {
+    {
         "name": "Fix Constantiam",
         "authors": [
             "WHGAT"
@@ -1842,7 +1842,7 @@
             }
         ]
     },
-    "93": {
+    {
         "name": "Follow Your Leader",
         "authors": [
             "unknown"
@@ -1857,7 +1857,7 @@
             }
         ]
     },
-    "94": {
+    {
         "name": "Following Eyes",
         "authors": [
             "Astrokie",
@@ -1873,7 +1873,7 @@
             }
         ]
     },
-    "95": {
+    {
         "name": "Fresh Pair of Tns",
         "authors": [
             "whenunut"
@@ -1888,7 +1888,7 @@
             }
         ]
     },
-    "96": {
+    {
         "name": "Frogger",
         "authors": [
             "SirLeonidas"
@@ -1903,7 +1903,7 @@
             }
         ]
     },
-    "97": {
+    {
         "name": "Fuck I'm lonely",
         "authors": [
             "Meth"
@@ -1923,7 +1923,7 @@
             }
         ]
     },
-    "98": {
+    {
         "name": "GET OUT Newbie",
         "authors": [
             "unknown"
@@ -1938,7 +1938,7 @@
             }
         ]
     },
-    "99": {
+    {
         "name": "Gengar",
         "authors": [
             "Toringe_"
@@ -1953,7 +1953,7 @@
             }
         ]
     },
-    "100": {
+    {
         "name": "Gengar 2",
         "authors": [
             "Toringe_"
@@ -1968,7 +1968,7 @@
             }
         ]
     },
-    "101": {
+    {
         "name": "Giggs Christmas Map",
         "authors": [
             "MsGiggs"
@@ -1983,7 +1983,7 @@
             }
         ]
     },
-    "102": {
+    {
         "name": "Go Left!",
         "authors": [
             "Demon568"
@@ -2023,7 +2023,7 @@
             }
         ]
     },
-    "103": {
+    {
         "name": "Godmachine",
         "authors": [
             "Dubzlinger"
@@ -2063,7 +2063,7 @@
             }
         ]
     },
-    "104": {
+    {
         "name": "Guevara",
         "authors": [
             "James_Rustles"
@@ -2078,7 +2078,7 @@
             }
         ]
     },
-    "105": {
+    {
         "name": "Guinness",
         "authors": [
             "Demon568"
@@ -2093,7 +2093,7 @@
             }
         ]
     },
-    "106": {
+    {
         "name": "Halloween",
         "authors": [
             "unknown"
@@ -2108,7 +2108,7 @@
             }
         ]
     },
-    "107": {
+    {
         "name": "Have you seen this kid?",
         "authors": [
             "Remi4896"
@@ -2138,7 +2138,7 @@
             }
         ]
     },
-    "108": {
+    {
         "name": "Heather",
         "authors": [
             "wilfree6969"
@@ -2153,7 +2153,7 @@
             }
         ]
     },
-    "109": {
+    {
         "name": "Heineken",
         "authors": [
             "Sanvar"
@@ -2168,7 +2168,7 @@
             }
         ]
     },
-    "110": {
+    {
         "name": "Hendrix",
         "authors": [
             "VargaGirl"
@@ -2183,7 +2183,7 @@
             }
         ]
     },
-    "111": {
+    {
         "name": "Hertog Jan",
         "authors": [
             "Sanvar"
@@ -2198,7 +2198,7 @@
             }
         ]
     },
-    "112": {
+    {
         "name": "Hillary",
         "authors": [
             "Hayor"
@@ -2213,7 +2213,7 @@
             }
         ]
     },
-    "113": {
+    {
         "name": "Hobbes",
         "authors": [
             "8Luck",
@@ -2232,7 +2232,7 @@
             }
         ]
     },
-    "114": {
+    {
         "name": "Hoegaarden",
         "authors": [
             "Demon568"
@@ -2247,7 +2247,7 @@
             }
         ]
     },
-    "115": {
+    {
         "name": "Hybrid",
         "authors": [
             "unknown"
@@ -2262,7 +2262,7 @@
             }
         ]
     },
-    "116": {
+    {
         "name": "I'mSorryJon",
         "authors": [
             "BroodjeBamiBal"
@@ -2277,7 +2277,7 @@
             }
         ]
     },
-    "117": {
+    {
         "name": "Ian's Spawn Base",
         "authors": [
             "unknown"
@@ -2292,7 +2292,7 @@
             }
         ]
     },
-    "118": {
+    {
         "name": "Initial D",
         "authors": [
             "CookieOfGods"
@@ -2307,7 +2307,7 @@
             }
         ]
     },
-    "119": {
+    {
         "name": "Jew Flag",
         "authors": [
             "Astrokie"
@@ -2377,7 +2377,7 @@
             }
         ]
     },
-    "120": {
+    {
         "name": "Johann Kaspar Schmidt",
         "authors": [
             "dansay546"
@@ -2392,7 +2392,7 @@
             }
         ]
     },
-    "121": {
+    {
         "name": "Junji Ito",
         "authors": [
             "Toringe_"
@@ -2407,7 +2407,7 @@
             }
         ]
     },
-    "122": {
+    {
         "name": "Jupiler",
         "authors": [
             "Demon568"
@@ -2422,7 +2422,7 @@
             }
         ]
     },
-    "123": {
+    {
         "name": "KFC",
         "authors": [
             "Cukon"
@@ -2437,7 +2437,7 @@
             }
         ]
     },
-    "124": {
+    {
         "name": "Karl Marx",
         "authors": [
             "General_Sherman"
@@ -2452,7 +2452,7 @@
             }
         ]
     },
-    "125": {
+    {
         "name": "Kid A",
         "authors": [
             "Demon568"
@@ -2467,7 +2467,7 @@
             }
         ]
     },
-    "126": {
+    {
         "name": "Kill or BE Killed",
         "authors": [
             "JoeyC9",
@@ -2483,7 +2483,7 @@
             }
         ]
     },
-    "127": {
+    {
         "name": "Kim Jong Un",
         "authors": [
             "James_Rustles"
@@ -2498,7 +2498,7 @@
             }
         ]
     },
-    "128": {
+    {
         "name": "King CuBoyd",
         "authors": [
             "dansay546"
@@ -2513,7 +2513,7 @@
             }
         ]
     },
-    "129": {
+    {
         "name": "King Kunta",
         "authors": [
             "Demon568"
@@ -2528,7 +2528,7 @@
             }
         ]
     },
-    "130": {
+    {
         "name": "L'Origine du monde-Courbet(1866)",
         "authors": [
             "Dubzlinger"
@@ -2543,7 +2543,7 @@
             }
         ]
     },
-    "131": {
+    {
         "name": "LSD",
         "authors": [
             "Squidiz"
@@ -2558,7 +2558,7 @@
             }
         ]
     },
-    "132": {
+    {
         "name": "Lateralus",
         "authors": [
             "Astrokie"
@@ -2573,7 +2573,7 @@
             }
         ]
     },
-    "133": {
+    {
         "name": "Lavender Town",
         "authors": [
             "Dubzlinger"
@@ -2588,7 +2588,7 @@
             }
         ]
     },
-    "134": {
+    {
         "name": "Leffe",
         "authors": [
             "Demon568"
@@ -2603,7 +2603,7 @@
             }
         ]
     },
-    "135": {
+    {
         "name": "Lucky Vixen",
         "authors": [
             "General_Sherman"
@@ -2618,7 +2618,7 @@
             }
         ]
     },
-    "136": {
+    {
         "name": "MADVILLAINY",
         "authors": [
             "only_vincent"
@@ -2648,7 +2648,7 @@
             }
         ]
     },
-    "137": {
+    {
         "name": "MMXVIII",
         "authors": [
             "SirLeonidas"
@@ -2663,7 +2663,7 @@
             }
         ]
     },
-    "138": {
+    {
         "name": "Make Constantiam Great Again",
         "authors": [
             "Zipdox",
@@ -2679,7 +2679,7 @@
             }
         ]
     },
-    "139": {
+    {
         "name": "Mandelbrot",
         "authors": [
             "whenunut"
@@ -2694,7 +2694,7 @@
             }
         ]
     },
-    "140": {
+    {
         "name": "Mandelbrot 1",
         "authors": [
             "whenunut"
@@ -2709,7 +2709,7 @@
             }
         ]
     },
-    "141": {
+    {
         "name": "Mare.png",
         "authors": [
             "Astrokie"
@@ -2724,7 +2724,7 @@
             }
         ]
     },
-    "142": {
+    {
         "name": "Marina",
         "authors": [
             "kittychew"
@@ -2754,7 +2754,7 @@
             }
         ]
     },
-    "143": {
+    {
         "name": "Martian's Random Shit",
         "authors": [
             "Nyroc_"
@@ -2769,7 +2769,7 @@
             }
         ]
     },
-    "144": {
+    {
         "name": "Megumin",
         "authors": [
             "Xray_Doc"
@@ -2809,7 +2809,7 @@
             }
         ]
     },
-    "145": {
+    {
         "name": "Mickey Mouse",
         "authors": [
             "IamExit"
@@ -2824,7 +2824,7 @@
             }
         ]
     },
-    "146": {
+    {
         "name": "Mistake",
         "authors": [
             "unknown"
@@ -2839,7 +2839,7 @@
             }
         ]
     },
-    "147": {
+    {
         "name": "Miura",
         "authors": [
             "Demon568"
@@ -2879,7 +2879,7 @@
             }
         ]
     },
-    "148": {
+    {
         "name": "Muhammad Ali",
         "authors": [
             "dom_mld"
@@ -2894,7 +2894,7 @@
             }
         ]
     },
-    "149": {
+    {
         "name": "Muhammad Ali vs Sonny Liston",
         "authors": [
             "laxdude1721"
@@ -2909,7 +2909,7 @@
             }
         ]
     },
-    "150": {
+    {
         "name": "NO ANIME",
         "authors": [
             "dofuk"
@@ -2924,7 +2924,7 @@
             }
         ]
     },
-    "151": {
+    {
         "name": "NOWHITELIST",
         "authors": [
             "AureliusWulf"
@@ -2944,7 +2944,7 @@
             }
         ]
     },
-    "152": {
+    {
         "name": "NPC",
         "authors": [
             "Gecko501"
@@ -2959,7 +2959,7 @@
             }
         ]
     },
-    "153": {
+    {
         "name": "NS",
         "authors": [
             "CuBoyd"
@@ -2974,7 +2974,7 @@
             }
         ]
     },
-    "154": {
+    {
         "name": "Nazi Flag",
         "authors": [
             "unknown"
@@ -2989,7 +2989,7 @@
             }
         ]
     },
-    "155": {
+    {
         "name": "Necronaut",
         "authors": [
             "Fatale"
@@ -3004,7 +3004,7 @@
             }
         ]
     },
-    "156": {
+    {
         "name": "New Rapper",
         "authors": [
             "Boppler"
@@ -3019,7 +3019,7 @@
             }
         ]
     },
-    "157": {
+    {
         "name": "Nigga Stole My Bike",
         "authors": [
             "whenunut"
@@ -3039,7 +3039,7 @@
             }
         ]
     },
-    "158": {
+    {
         "name": "Nightmare",
         "authors": [
             "2q1"
@@ -3054,7 +3054,7 @@
             }
         ]
     },
-    "159": {
+    {
         "name": "Nirvana",
         "authors": [
             "Anvilize"
@@ -3069,7 +3069,7 @@
             }
         ]
     },
-    "160": {
+    {
         "name": "No comment",
         "authors": [
             "DukeTheDragon"
@@ -3084,7 +3084,7 @@
             }
         ]
     },
-    "161": {
+    {
         "name": "No texture",
         "authors": [
             "IamExit"
@@ -3099,7 +3099,7 @@
             }
         ]
     },
-    "162": {
+    {
         "name": "Noble Biome",
         "authors": [
             "CookieOfGods"
@@ -3114,7 +3114,7 @@
             }
         ]
     },
-    "163": {
+    {
         "name": "ODST",
         "authors": [
             "Boppler"
@@ -3129,7 +3129,7 @@
             }
         ]
     },
-    "164": {
+    {
         "name": "Oh Canada",
         "authors": [
             "unknown"
@@ -3149,7 +3149,7 @@
             }
         ]
     },
-    "165": {
+    {
         "name": "Old Soldiers Die Hard",
         "authors": [
             "Nyroc_",
@@ -3165,7 +3165,7 @@
             }
         ]
     },
-    "166": {
+    {
         "name": "Outer Heaven",
         "authors": [
             "Xray_Doc"
@@ -3195,7 +3195,7 @@
             }
         ]
     },
-    "167": {
+    {
         "name": "PASSIONE ON TOP",
         "authors": [
             "CookieOfGods"
@@ -3210,7 +3210,7 @@
             }
         ]
     },
-    "168": {
+    {
         "name": "Pablo Escobar",
         "authors": [
             "James_Rustles"
@@ -3225,7 +3225,7 @@
             }
         ]
     },
-    "169": {
+    {
         "name": "Pantera",
         "authors": [
             "Squidiz"
@@ -3240,7 +3240,7 @@
             }
         ]
     },
-    "170": {
+    {
         "name": "Passione",
         "authors": [
             "Kaisogen"
@@ -3255,7 +3255,7 @@
             }
         ]
     },
-    "171": {
+    {
         "name": "Pepsi 1",
         "authors": [
             "3stix"
@@ -3270,7 +3270,7 @@
             }
         ]
     },
-    "172": {
+    {
         "name": "Pepsi 1971",
         "authors": [
             "Astrokie",
@@ -3286,7 +3286,7 @@
             }
         ]
     },
-    "173": {
+    {
         "name": "Phoenix",
         "authors": [
             "BakedAccent"
@@ -3301,7 +3301,7 @@
             }
         ]
     },
-    "174": {
+    {
         "name": "Picasso",
         "authors": [
             "unknown"
@@ -3411,7 +3411,7 @@
             }
         ]
     },
-    "175": {
+    {
         "name": "Pitbull",
         "authors": [
             "TrvsF"
@@ -3426,7 +3426,7 @@
             }
         ]
     },
-    "176": {
+    {
         "name": "Pizza Cat",
         "authors": [
             "snowslushy"
@@ -3441,7 +3441,7 @@
             }
         ]
     },
-    "177": {
+    {
         "name": "Pocket Edition Coalition",
         "authors": [
             "unknown"
@@ -3456,7 +3456,7 @@
             }
         ]
     },
-    "178": {
+    {
         "name": "Pony",
         "authors": [
             "Spartan512"
@@ -3476,7 +3476,7 @@
             }
         ]
     },
-    "179": {
+    {
         "name": "PornHub",
         "authors": [
             "IamExit"
@@ -3491,7 +3491,7 @@
             }
         ]
     },
-    "180": {
+    {
         "name": "Power to the People",
         "authors": [
             "Demon568"
@@ -3506,7 +3506,7 @@
             }
         ]
     },
-    "181": {
+    {
         "name": "Projared",
         "authors": [
             "Meth"
@@ -3521,7 +3521,7 @@
             }
         ]
     },
-    "182": {
+    {
         "name": "QR Code",
         "authors": [
             "CuBoyd"
@@ -3536,7 +3536,7 @@
             }
         ]
     },
-    "183": {
+    {
         "name": "RTJ1 album cover",
         "authors": [
             "Anvilize"
@@ -3566,7 +3566,7 @@
             }
         ]
     },
-    "184": {
+    {
         "name": "Rainbow Dash",
         "authors": [
             "Hayor"
@@ -3581,7 +3581,7 @@
             }
         ]
     },
-    "185": {
+    {
         "name": "Resistance",
         "authors": [
             "AlexMcNabb"
@@ -3596,7 +3596,7 @@
             }
         ]
     },
-    "186": {
+    {
         "name": "Rest Area",
         "authors": [
             "Squidiz"
@@ -3611,7 +3611,7 @@
             }
         ]
     },
-    "187": {
+    {
         "name": "SMX",
         "authors": [
             "unknown"
@@ -3626,7 +3626,7 @@
             }
         ]
     },
-    "188": {
+    {
         "name": "STOP",
         "authors": [
             "Gecko501"
@@ -3641,7 +3641,7 @@
             }
         ]
     },
-    "189": {
+    {
         "name": "SUB TO CUBOYD ON YT",
         "authors": [
             "unknown"
@@ -3656,7 +3656,7 @@
             }
         ]
     },
-    "190": {
+    {
         "name": "Scarface",
         "authors": [
             "dom_mld"
@@ -3696,7 +3696,7 @@
             }
         ]
     },
-    "191": {
+    {
         "name": "Scott Joplin",
         "authors": [
             "TrvsF",
@@ -3712,7 +3712,7 @@
             }
         ]
     },
-    "192": {
+    {
         "name": "Seize the Means of Production",
         "authors": [
             "Anvilize"
@@ -3727,7 +3727,7 @@
             }
         ]
     },
-    "193": {
+    {
         "name": "Selected Ambient Works 85-92",
         "authors": [
             "unknown"
@@ -3742,7 +3742,7 @@
             }
         ]
     },
-    "194": {
+    {
         "name": "Semblance",
         "authors": [
             "Meth"
@@ -3772,7 +3772,7 @@
             }
         ]
     },
-    "195": {
+    {
         "name": "Sichrylan's Hand Drawn Hen Tie <3",
         "authors": [
             "unknown"
@@ -3787,7 +3787,7 @@
             }
         ]
     },
-    "196": {
+    {
         "name": "Simple Galaxy",
         "authors": [
             "Boppler"
@@ -3802,7 +3802,7 @@
             }
         ]
     },
-    "197": {
+    {
         "name": "Skeleton",
         "authors": [
             "dom_mld"
@@ -3842,7 +3842,7 @@
             }
         ]
     },
-    "198": {
+    {
         "name": "Soviet Girl",
         "authors": [
             "lighttherock"
@@ -3857,7 +3857,7 @@
             }
         ]
     },
-    "199": {
+    {
         "name": "Speedcola",
         "authors": [
             "unknown"
@@ -3872,7 +3872,7 @@
             }
         ]
     },
-    "200": {
+    {
         "name": "Starry night",
         "authors": [
             "dom_mld"
@@ -3892,7 +3892,7 @@
             }
         ]
     },
-    "201": {
+    {
         "name": "Static",
         "authors": [
             "Astrokie"
@@ -3907,7 +3907,7 @@
             }
         ]
     },
-    "202": {
+    {
         "name": "Stella",
         "authors": [
             "Demon568"
@@ -3922,7 +3922,7 @@
             }
         ]
     },
-    "203": {
+    {
         "name": "Stewie",
         "authors": [
             "Metiv15"
@@ -3937,7 +3937,7 @@
             }
         ]
     },
-    "204": {
+    {
         "name": "Supreme leader",
         "authors": [
             "Klemenator"
@@ -3957,7 +3957,7 @@
             }
         ]
     },
-    "205": {
+    {
         "name": "Swastika",
         "authors": [
             "unknown"
@@ -3972,7 +3972,7 @@
             }
         ]
     },
-    "206": {
+    {
         "name": "System 95",
         "authors": [
             "GrandeBaguette"
@@ -3987,7 +3987,7 @@
             }
         ]
     },
-    "207": {
+    {
         "name": "Tardis",
         "authors": [
             "LDubbs"
@@ -4002,7 +4002,7 @@
             }
         ]
     },
-    "208": {
+    {
         "name": "Team AVO",
         "authors": [
             "Third_Right"
@@ -4017,7 +4017,7 @@
             }
         ]
     },
-    "209": {
+    {
         "name": "Texas Flag 1",
         "authors": [
             "CookieOfGods"
@@ -4037,7 +4037,7 @@
             }
         ]
     },
-    "210": {
+    {
         "name": "That gay shit",
         "authors": [
             "DukeTheDragon"
@@ -4052,7 +4052,7 @@
             }
         ]
     },
-    "211": {
+    {
         "name": "The Call of Cthulhu",
         "authors": [
             "Ozon"
@@ -4122,7 +4122,7 @@
             }
         ]
     },
-    "212": {
+    {
         "name": "The Comedian's Badge",
         "authors": [
             "unknown"
@@ -4137,7 +4137,7 @@
             }
         ]
     },
-    "213": {
+    {
         "name": "The Daily Cuck Issue 10",
         "authors": [
             "PaperEditor"
@@ -4157,7 +4157,7 @@
             }
         ]
     },
-    "214": {
+    {
         "name": "The Daily Cuck Issue 27",
         "authors": [
             "PaperEditor"
@@ -4177,7 +4177,7 @@
             }
         ]
     },
-    "215": {
+    {
         "name": "The Eclipse - Berserk",
         "authors": [
             "Xray_Doc"
@@ -4307,7 +4307,7 @@
             }
         ]
     },
-    "216": {
+    {
         "name": "The Hamiltonian",
         "authors": [
             "dansay546"
@@ -4337,7 +4337,7 @@
             }
         ]
     },
-    "217": {
+    {
         "name": "The Illest Villain",
         "authors": [
             "Demon568"
@@ -4377,7 +4377,7 @@
             }
         ]
     },
-    "218": {
+    {
         "name": "The King of Constantiam",
         "authors": [
             "Demon568"
@@ -4392,7 +4392,7 @@
             }
         ]
     },
-    "219": {
+    {
         "name": "The Notorious BIG - Ready to die ⓟ",
         "authors": [
             "Parotic"
@@ -4407,7 +4407,7 @@
             }
         ]
     },
-    "220": {
+    {
         "name": "The Shining",
         "authors": [
             "Demon568"
@@ -4422,7 +4422,7 @@
             }
         ]
     },
-    "221": {
+    {
         "name": "The Void Masons",
         "authors": [
             "jordanl666"
@@ -4437,7 +4437,7 @@
             }
         ]
     },
-    "222": {
+    {
         "name": "TheBirthofCuboyd",
         "authors": [
             "Torbben"
@@ -4477,7 +4477,7 @@
             }
         ]
     },
-    "223": {
+    {
         "name": "TheLich",
         "authors": [
             "Torbben"
@@ -4492,7 +4492,7 @@
             }
         ]
     },
-    "224": {
+    {
         "name": "ThinkNoose",
         "authors": [
             "Zipdox"
@@ -4507,7 +4507,7 @@
             }
         ]
     },
-    "225": {
+    {
         "name": "This is bait.",
         "authors": [
             "Zipdox"
@@ -4522,7 +4522,7 @@
             }
         ]
     },
-    "226": {
+    {
         "name": "Timeline",
         "authors": [
             "dinosaurwizard"
@@ -4612,7 +4612,7 @@
             }
         ]
     },
-    "227": {
+    {
         "name": "Tomoko #4",
         "authors": [
             "Abandion"
@@ -4627,7 +4627,7 @@
             }
         ]
     },
-    "228": {
+    {
         "name": "Tongue",
         "authors": [
             "unknown"
@@ -4642,7 +4642,7 @@
             }
         ]
     },
-    "229": {
+    {
         "name": "Tree",
         "authors": [
             "unknown"
@@ -4657,7 +4657,7 @@
             }
         ]
     },
-    "230": {
+    {
         "name": "Trump",
         "authors": [
             "James_Rustles"
@@ -4672,7 +4672,7 @@
             }
         ]
     },
-    "231": {
+    {
         "name": "Tux",
         "authors": [
             "Zipdox"
@@ -4687,7 +4687,7 @@
             }
         ]
     },
-    "232": {
+    {
         "name": "U Mad Bro?",
         "authors": [
             "IamExit"
@@ -4702,7 +4702,7 @@
             }
         ]
     },
-    "233": {
+    {
         "name": "UBERSLUGCAKE",
         "authors": [
             "UBERSLUGCAKE"
@@ -4717,7 +4717,7 @@
             }
         ]
     },
-    "234": {
+    {
         "name": "Untitled",
         "authors": [
             "CuBoyd"
@@ -4757,7 +4757,7 @@
             }
         ]
     },
-    "235": {
+    {
         "name": "Untitled C 1988",
         "authors": [
             "only_vincent"
@@ -4772,7 +4772,7 @@
             }
         ]
     },
-    "236": {
+    {
         "name": "VOCO = HOMO REMASTER",
         "authors": [
             "dom_mld"
@@ -4787,7 +4787,7 @@
             }
         ]
     },
-    "237": {
+    {
         "name": "VOTE SANVAR FOR SOCK",
         "authors": [
             "Demon568"
@@ -4802,7 +4802,7 @@
             }
         ]
     },
-    "238": {
+    {
         "name": "VOTE [1] NYROC_",
         "authors": [
             "Nyroc_"
@@ -4817,7 +4817,7 @@
             }
         ]
     },
-    "239": {
+    {
         "name": "Vaptin",
         "authors": [
             "dvddy"
@@ -4832,7 +4832,7 @@
             }
         ]
     },
-    "240": {
+    {
         "name": "Vardzia",
         "authors": [
             "unknown"
@@ -4847,7 +4847,7 @@
             }
         ]
     },
-    "241": {
+    {
         "name": "Vardzian Castle",
         "authors": [
             "Dinosaurwizard"
@@ -4887,7 +4887,7 @@
             }
         ]
     },
-    "242": {
+    {
         "name": "Varga's Legends pt1",
         "authors": [
             "VargaGirl"
@@ -4902,7 +4902,7 @@
             }
         ]
     },
-    "243": {
+    {
         "name": "Varga's Legends pt2",
         "authors": [
             "VargaGirl"
@@ -4917,7 +4917,7 @@
             }
         ]
     },
-    "244": {
+    {
         "name": "Vault Boy",
         "authors": [
             "unknown"
@@ -4932,7 +4932,7 @@
             }
         ]
     },
-    "245": {
+    {
         "name": "Venom Face",
         "authors": [
             "WHGAT"
@@ -4947,7 +4947,7 @@
             }
         ]
     },
-    "246": {
+    {
         "name": "Vintage Astronaut",
         "authors": [
             "Blazyd"
@@ -4962,7 +4962,7 @@
             }
         ]
     },
-    "247": {
+    {
         "name": "Vote CuBoyd 2020",
         "authors": [
             "CuBoyd"
@@ -4977,7 +4977,7 @@
             }
         ]
     },
-    "248": {
+    {
         "name": "Vote Cub!",
         "authors": [
             "Xray_Doc"
@@ -4992,7 +4992,7 @@
             }
         ]
     },
-    "249": {
+    {
         "name": "Vote Hayor 2019",
         "authors": [
             "Gecko501"
@@ -5007,7 +5007,7 @@
             }
         ]
     },
-    "250": {
+    {
         "name": "Vote Sanvar! 3YkaqgB",
         "authors": [
             "Demon568"
@@ -5022,7 +5022,7 @@
             }
         ]
     },
-    "251": {
+    {
         "name": "Vote Spart & Giggs Old",
         "authors": [
             "MsGiggs",
@@ -5038,9 +5038,12 @@
             }
         ]
     },
-    "252": {
+    {
         "name": "Vote Spartan & Giggles",
-        "authors": [],
+        "authors": [
+            "MsGiggs",
+            "Spartan512"
+        ],
         "width": 1,
         "height": 1,
         "maps": [
@@ -5051,7 +5054,7 @@
             }
         ]
     },
-    "253": {
+    {
         "name": "Vote [1] Nyroc_ and JoeyC9",
         "authors": [
             "Nyroc_",
@@ -5067,7 +5070,7 @@
             }
         ]
     },
-    "254": {
+    {
         "name": "Vote for Sanvar & A4EX",
         "authors": [
             "Sanvar",
@@ -5083,7 +5086,7 @@
             }
         ]
     },
-    "255": {
+    {
         "name": "Wanted Dead or Alive",
         "authors": [
             "unknown"
@@ -5098,7 +5101,7 @@
             }
         ]
     },
-    "256": {
+    {
         "name": "We Are Cuboyd",
         "authors": [
             "Yakhi"
@@ -5113,7 +5116,7 @@
             }
         ]
     },
-    "257": {
+    {
         "name": "West-Indische Compagnie",
         "authors": [
             "Sanvar",
@@ -5129,7 +5132,7 @@
             }
         ]
     },
-    "258": {
+    {
         "name": "Wheelchair",
         "authors": [
             "Dinosaurwizard"
@@ -5144,7 +5147,7 @@
             }
         ]
     },
-    "259": {
+    {
         "name": "White Girls",
         "authors": [
             "unknown"
@@ -5159,7 +5162,7 @@
             }
         ]
     },
-    "260": {
+    {
         "name": "Wonka",
         "authors": [
             "LEELOO"
@@ -5174,7 +5177,7 @@
             }
         ]
     },
-    "261": {
+    {
         "name": "Xaxaar",
         "authors": [
             "unknown"
@@ -5204,7 +5207,7 @@
             }
         ]
     },
-    "262": {
+    {
         "name": "Xray_Doc is a",
         "authors": [
             "Xray_Doc"
@@ -5219,7 +5222,7 @@
             }
         ]
     },
-    "263": {
+    {
         "name": "You are offline",
         "authors": [
             "IamExit"
@@ -5234,7 +5237,7 @@
             }
         ]
     },
-    "264": {
+    {
         "name": "Zaphira",
         "authors": [
             "wilfree6969"
@@ -5249,7 +5252,7 @@
             }
         ]
     },
-    "265": {
+    {
         "name": "Zastava Slovenie",
         "authors": [
             "dansay546"
@@ -5269,7 +5272,7 @@
             }
         ]
     },
-    "266": {
+    {
         "name": "bogotown",
         "authors": [
             "Supreme_Box_Logo"
@@ -5284,7 +5287,7 @@
             }
         ]
     },
-    "267": {
+    {
         "name": "celtic knot 1",
         "authors": [
             "Gibous"
@@ -5299,7 +5302,7 @@
             }
         ]
     },
-    "268": {
+    {
         "name": "cuboyd#8150",
         "authors": [
             "Tabbott",
@@ -5315,7 +5318,7 @@
             }
         ]
     },
-    "269": {
+    {
         "name": "for hayor",
         "authors": [
             "unknown"
@@ -5330,7 +5333,7 @@
             }
         ]
     },
-    "270": {
+    {
         "name": "hIt oR mISs",
         "authors": [
             "ianmc05",
@@ -5346,7 +5349,7 @@
             }
         ]
     },
-    "271": {
+    {
         "name": "hey",
         "authors": [
             "R1ester",
@@ -5363,7 +5366,7 @@
             }
         ]
     },
-    "272": {
+    {
         "name": "https://discord.gg/htS77VB",
         "authors": [
             "Gruigi_"
@@ -5378,7 +5381,7 @@
             }
         ]
     },
-    "273": {
+    {
         "name": "initial D original for hayor",
         "authors": [
             "CookieOfGods"
@@ -5393,7 +5396,7 @@
             }
         ]
     },
-    "274": {
+    {
         "name": "phantom fixing server",
         "authors": [
             "Dubzlinger"
@@ -5408,7 +5411,7 @@
             }
         ]
     },
-    "275": {
+    {
         "name": "shut.",
         "authors": [
             "Dubzlinger"
@@ -5423,7 +5426,7 @@
             }
         ]
     },
-    "276": {
+    {
         "name": "softlygaloshes",
         "authors": [
             "Lecap"
@@ -5438,7 +5441,7 @@
             }
         ]
     },
-    "277": {
+    {
         "name": "stack oranges",
         "authors": [
             "Dubzlinger"
@@ -5463,7 +5466,7 @@
             }
         ]
     },
-    "278": {
+    {
         "name": "tankman",
         "authors": [
             "unknown"
@@ -5478,7 +5481,7 @@
             }
         ]
     },
-    "279": {
+    {
         "name": "walter",
         "authors": [
             "only_vincent"
@@ -5493,7 +5496,7 @@
             }
         ]
     },
-    "280": {
+    {
         "name": "τ Happy Tau Day 2018 τ",
         "authors": [
             "superfire01"
@@ -5508,7 +5511,7 @@
             }
         ]
     },
-    "281": {
+    {
         "name": "Ловерс Ембраце",
         "authors": [
             "Klemenator"
@@ -5523,7 +5526,7 @@
             }
         ]
     },
-    "282": {
+    {
         "name": "۞Ｖａｒｄｚｉａ۞",
         "authors": [
             "Dinosaurwizard"
@@ -5538,7 +5541,7 @@
             }
         ]
     },
-    "283": {
+    {
         "name": "۵﴾変態﴿۵﴾女性﴿۵¹۵",
         "authors": [
             "Dubzlinger"
@@ -5558,7 +5561,7 @@
             }
         ]
     },
-    "284": {
+    {
         "name": "♿ Ｍｅｍｅ",
         "authors": [
             "Zipdox"
@@ -5573,7 +5576,7 @@
             }
         ]
     },
-    "285": {
+    {
         "name": "✗ Horizon Newspaper ✗",
         "authors": [
             "MRX"
@@ -5588,7 +5591,7 @@
             }
         ]
     },
-    "286": {
+    {
         "name": "✗ Sharpie, man of Stone ✗",
         "authors": [
             "MRX"
@@ -5603,7 +5606,7 @@
             }
         ]
     },
-    "287": {
+    {
         "name": "✗ We are watching you ✗",
         "authors": [
             "MRX"
@@ -5618,7 +5621,7 @@
             }
         ]
     },
-    "288": {
+    {
         "name": "✗ mrx, the Traveller ✗",
         "authors": [
             "MRX"
@@ -5633,7 +5636,7 @@
             }
         ]
     },
-    "289": {
+    {
         "name": "✘ Alucard ✘",
         "authors": [
             "MRX"
@@ -5648,7 +5651,7 @@
             }
         ]
     },
-    "290": {
+    {
         "name": "✘ Dragon fight ✘",
         "authors": [
             "MRX"
@@ -5663,7 +5666,7 @@
             }
         ]
     },
-    "291": {
+    {
         "name": "✘ Gomez ✘",
         "authors": [
             "MRX"
@@ -5678,7 +5681,7 @@
             }
         ]
     },
-    "292": {
+    {
         "name": "✘ Xardas ✘",
         "authors": [
             "MRX"
@@ -5693,7 +5696,7 @@
             }
         ]
     },
-    "293": {
+    {
         "name": "【 ｔｒａｐｓ ａｒｅｎｔ ｇａｙ 】",
         "authors": [
             "EmeraldSnorlax"
@@ -5708,7 +5711,7 @@
             }
         ]
     },
-    "294": {
+    {
         "name": "〖Constantiam.net〗",
         "authors": [
             "Dubzlinger"
@@ -5778,7 +5781,7 @@
             }
         ]
     },
-    "295": {
+    {
         "name": "プレイステーション",
         "authors": [
             "Fennx420"
@@ -5793,7 +5796,7 @@
             }
         ]
     },
-    "296": {
+    {
         "name": "乃ののム刀ﾉ丂ん",
         "authors": [
             "TrvsF"
@@ -5808,7 +5811,7 @@
             }
         ]
     },
-    "297": {
+    {
         "name": "卐 PopbobBrand™ 卐 OnTopBobBrand™ 卐",
         "authors": [
             "FaZeRico",
@@ -5824,7 +5827,7 @@
             }
         ]
     },
-    "298": {
+    {
         "name": "디비나 A. 사티",
         "authors": [
             "DirtyNastyCoochi"
@@ -5839,7 +5842,7 @@
             }
         ]
     },
-    "299": {
+    {
         "name": "Ｌｅｔ＇ｓ ａｌｌ ｌｏｖｅ Ｌａｉｎ！",
         "authors": [
             "only_vincent"
@@ -5854,7 +5857,7 @@
             }
         ]
     },
-    "300": {
+    {
         "name": "Ｔｈｅ Ｓｃｈｎｏｚ",
         "authors": [
             "Xray_Doc"
@@ -5869,7 +5872,7 @@
             }
         ]
     },
-    "301": {
+    {
         "name": "ｈ ａ ｕ ｓ ｅ ｍ ａ ｓ ｔ ｅ ｒ ２ ０ ０ ３",
         "authors": [
             "James_Rustles"
@@ -5884,4 +5887,4 @@
             }
         ]
     }
-}
+]

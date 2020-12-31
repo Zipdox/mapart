@@ -10,9 +10,11 @@ for(map in mapsIn){
 }
 array.sort((a, b) => (a.name > b.name) ? 1 : -1);
 
-var mapsOut = {};
+// var mapsOut = {};
+var mapsOut = [];
 for(i = 0; i < array.length; i++){
-    mapsOut[String(i)] = array[i];
+    // mapsOut[String(i)] = array[i];
+    mapsOut.push(array[i]);
 }
 
 const mapsOutJson = JSON.stringify(mapsOut, null, 4);

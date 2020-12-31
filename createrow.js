@@ -8,7 +8,6 @@ function createEntry(selectedMap){
     const entrySize = entry.insertCell();
     entrySize.textContent = `${selectedMap.width}×${selectedMap.height}`;
 
-    entry.style.cursor = "pointer";
     entry.onclick = async function(){
         window.shownMap = selectedMap;
         maptitle.innerHTML = selectedMap.name;
