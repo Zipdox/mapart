@@ -1086,7 +1086,7 @@
         ]
     },
     "57": {
-        "name": "Christamas 2019",
+        "name": "Christmas 2019",
         "authors": [
             "dvddy"
         ],
@@ -5851,6 +5851,21 @@
                 "x": 2,
                 "y": 4,
                 "id": 20197
+            }
+        ]
+    },
+    "300": {
+        "name": "Tomoko #4",
+        "authors": [
+            "Abandion"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 20221
             }
         ]
     }

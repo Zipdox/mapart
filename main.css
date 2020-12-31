@@ -2,4 +2,57 @@ html, body {
     background-color: black;
     font-family: monospace;
     color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#options {
+    width: 40vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.settings_info {
+    margin: 1vw;
+}
+
+#display {
+    width: 60vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#maptable {
+    background-color: gray;
+    width: 38vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+}
+
+th, td {
+    padding: 2px;
+}
+
+table, th, td {
+    border: 1px solid darkgray;
+    border-collapse: collapse;
 }

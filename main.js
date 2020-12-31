@@ -3,61 +3,57 @@ window.onload = async function(){
     const mapJson = await fetch('maps.json');
     window.mapData = await mapJson.json();
 
-    window.mapslist = document.getElementById('maps');
-    window.scaleSlider = document.getElementById('scale');
+    window.mapslist = document.getElementById('maptable');
+    window.quality = document.getElementById('quality');
     window.canvas = document.getElementById('map');
     window.maptitle = document.getElementById('maptitle');
     window.mapAuthor = document.getElementById('author');
     window.searchBar = document.getElementById('search');
     
     for(map in mapData){
-        var helperOption = document.createElement('option');
-        helperOption.value = map;
-        helperOption.innerHTML = mapData[map].name;
-        mapslist.appendChild(helperOption);
+        const entry = createEntry(mapData[map]);
+        mapslist.appendChild(entry);
     }
 
-    mapslist.onchange = async function(){
-        if(this.value == ''){
-            clearCanvas(canvas);
-            return;
-        }
-        const selectedMap = mapData[this.value];
-        maptitle.innerHTML = selectedMap.name;
-        window.location.hash = "#" + encodeURIComponent(selectedMap.name);
-        mapAuthor.innerHTML = selectedMap.authors.join(', ');
-        sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value);
-        for(mapPiece of selectedMap.maps){
+    quality.onchange = async function(){
+        if(shownMap == undefined) return;
+        maptitle.innerHTML = shownMap.name;
+        window.location.hash = "#" + encodeURIComponent(shownMap.name);
+        mapAuthor.innerHTML = shownMap.authors.join(' ');
+        sizeCanvas(shownMap.width, shownMap.height, quality.value);
+        for(mapPiece of shownMap.maps){
             const selectedMapData = await getMapData(mapPiece.id);
             const selectedMapImage = renderImage(selectedMapData);
-            printImage(canvas, selectedMapImage, scaleSlider.value, mapPiece.x, mapPiece.y);
+            printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
         }
     }
-    scaleSlider.onchange = async function(){
-        if(mapslist.value == '') return;
-        const selectedMap = mapData[mapslist.value];
-        maptitle.innerHTML = selectedMap.name;
-        window.location.hash = "#" + encodeURIComponent(selectedMap.name);
-        mapAuthor.innerHTML = selectedMap.authors.join(' ');
-        sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value);
-        for(mapPiece of selectedMap.maps){
-            const selectedMapData = await getMapData(mapPiece.id);
-            const selectedMapImage = renderImage(selectedMapData);
-            printImage(canvas, selectedMapImage, scaleSlider.value, mapPiece.x, mapPiece.y);
-        }
-    }
+
     searchBar.addEventListener("keyup", function(event) {
-        const searchResults = searchObject(mapData, this.value);
         for(i = mapslist.children.length - 1; i>=0; i--){
-            if(mapslist[i].value != "") mapslist[i].remove();
+            if(mapslist.children[i].className == "entry") mapslist.children[i].remove();
         }
-        for(map in searchResults){
-            var helperOption = document.createElement('option');
-            helperOption.value = map;
-            helperOption.innerHTML = mapData[map].name;
-            mapslist.appendChild(helperOption);
+        for(map in mapData){
+            const selectedMap = mapData[map];
+            const queryWords = this.value.toLowerCase().split(' ');
+            var match = true;
+            for(word of queryWords){
+                if(!selectedMap.name.toLowerCase().includes(word) && !selectedMap.authors.join(' ').toLowerCase().includes(word)) match = false;
+            }
+            if(match){
+                const entry = createEntry(selectedMap);
+                mapslist.appendChild(entry);
+            }
+            
         }
     });
+    
+    canvas.onclick = function(){
+        const downloadLink = document.createElement('a');
+        downloadLink.href = this.toDataURL("image/png");
+        downloadLink.download = window.maptitle.textContent + '.png';
+        downloadLink.click();
+    }
+
     const urlID = window.location.hash.slice(1);
     if(urlID.length > 0){
         decodedUrlID = decodeURIComponent(urlID);
@@ -70,13 +66,14 @@ window.onload = async function(){
         }
         if(foundMap != undefined){
             const selectedMap = mapData[foundMap];
+            window.shownMap = selectedMap;
             maptitle.innerHTML = selectedMap.name;
             mapAuthor.innerHTML = selectedMap.authors.join(', ');
-            sizeCanvas(selectedMap.width, selectedMap.height, scaleSlider.value);
+            sizeCanvas(selectedMap.width, selectedMap.height, quality.value);
             for(mapPiece of selectedMap.maps){
                 const selectedMapData = await getMapData(mapPiece.id);
                 const selectedMapImage = renderImage(selectedMapData);
-                printImage(canvas, selectedMapImage, scaleSlider.value, mapPiece.x, mapPiece.y);
+                printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
             }
         }
         
