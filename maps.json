@@ -1569,6 +1569,21 @@
         ]
     },
     {
+        "name": "E",
+        "authors": [
+            "Klemenator"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 21159
+            }
+        ]
+    },
+    {
         "name": "Eagle Eye",
         "authors": [
             "BakedAccent"
@@ -2438,6 +2453,21 @@
         ]
     },
     {
+        "name": "Kanna Kamui",
+        "authors": [
+            "jimmy_potato"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 20841
+            }
+        ]
+    },
+    {
         "name": "Karl Marx",
         "authors": [
             "General_Sherman"
@@ -2666,8 +2696,8 @@
     {
         "name": "Make Constantiam Great Again",
         "authors": [
-            "Zipdox",
-            "Talska"
+            "[REDACTED]",
+            "[REDACTED]"
         ],
         "width": 1,
         "height": 1,
@@ -2675,7 +2705,7 @@
             {
                 "x": 0,
                 "y": 0,
-                "id": 24563
+                "id": 21165
             }
         ]
     },
