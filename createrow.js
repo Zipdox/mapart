@@ -9,16 +9,16 @@ function createEntry(selectedMap){
     entrySize.textContent = `${selectedMap.width}×${selectedMap.height}`;
 
     entry.onclick = async function(){
-        window.shownMap = selectedMap;
         maptitle.innerHTML = selectedMap.name;
-        window.location.hash = "#" + encodeURIComponent(selectedMap.name);
         mapAuthor.innerHTML = selectedMap.authors.join(', ');
-        sizeCanvas(selectedMap.width, selectedMap.height, quality.value);
+        if(!sizeCanvas(selectedMap.width, selectedMap.height, quality.value)) return;
         for(mapPiece of selectedMap.maps){
             const selectedMapData = await getMapData(mapPiece.id);
             const selectedMapImage = renderImage(selectedMapData);
             printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
         }
+        window.shownMap = selectedMap;
+        window.location.hash = "#" + encodeURIComponent(selectedMap.name);
     }
     return entry;
 }

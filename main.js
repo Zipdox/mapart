@@ -2,6 +2,8 @@ window.onload = async function(){
 
     const mapJson = await fetch('maps.json');
     window.mapData = await mapJson.json();
+
+    window.acceptLargeMap = false;
     
     window.mapslist = document.getElementById('maptable');
     window.quality = document.getElementById('quality');
@@ -106,14 +108,14 @@ window.onload = async function(){
     quality.onchange = async function(){
         if(shownMap == undefined) return;
         maptitle.innerHTML = shownMap.name;
-        window.location.hash = "#" + encodeURIComponent(shownMap.name);
         mapAuthor.innerHTML = shownMap.authors.join(', ');
-        sizeCanvas(shownMap.width, shownMap.height, quality.value);
+        if(!sizeCanvas(shownMap.width, shownMap.height, quality.value)) return;
         for(mapPiece of shownMap.maps){
             const selectedMapData = await getMapData(mapPiece.id);
             const selectedMapImage = renderImage(selectedMapData);
             printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
         }
+        window.location.hash = "#" + encodeURIComponent(shownMap.name);
     }
 
     searchBar.addEventListener("keyup", function(event) {
