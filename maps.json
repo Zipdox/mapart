@@ -63,7 +63,7 @@
     {
         "name": "1milx",
         "authors": [
-            "unknown"
+            "KrazyEyzKilla"
         ],
         "width": 2,
         "height": 3,
@@ -163,7 +163,7 @@
     {
         "name": "A7X",
         "authors": [
-            "unknown"
+            "Astrokie"
         ],
         "width": 1,
         "height": 1,
@@ -873,6 +873,21 @@
         ]
     },
     {
+        "name": "boognish",
+        "authors": [
+            "TrvsF"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 15570
+            }
+        ]
+    },
+    {
         "name": "Bowie",
         "authors": [
             "VargaGirl"
@@ -1055,7 +1070,7 @@
     {
         "name": "CUP",
         "authors": [
-            "unknown"
+            "Soomaaliya"
         ],
         "width": 1,
         "height": 1,
@@ -1184,21 +1199,6 @@
                 "x": 0,
                 "y": 0,
                 "id": 4563
-            }
-        ]
-    },
-    {
-        "name": "Crazy",
-        "authors": [
-            "unknown"
-        ],
-        "width": 1,
-        "height": 1,
-        "maps": [
-            {
-                "x": 0,
-                "y": 0,
-                "id": 15570
             }
         ]
     },
@@ -1880,7 +1880,7 @@
     {
         "name": "Follow Your Leader",
         "authors": [
-            "unknown"
+            "Hayor"
         ],
         "width": 1,
         "height": 1,
@@ -2171,7 +2171,7 @@
     {
         "name": "Halloween",
         "authors": [
-            "unknown"
+            "SirLeonidas"
         ],
         "width": 1,
         "height": 1,
@@ -2325,7 +2325,7 @@
     {
         "name": "Hybrid",
         "authors": [
-            "unknown"
+            "Astrokie"
         ],
         "width": 1,
         "height": 1,
@@ -3037,7 +3037,7 @@
     {
         "name": "NPC",
         "authors": [
-            "Gecko501"
+            "Hayor"
         ],
         "width": 1,
         "height": 1,
@@ -4004,7 +4004,7 @@
     {
         "name": "Picasso",
         "authors": [
-            "unknown"
+            "HoneycombCake"
         ],
         "width": 5,
         "height": 4,
@@ -4399,7 +4399,7 @@
     {
         "name": "STOP",
         "authors": [
-            "Gecko501"
+            "Hayor"
         ],
         "width": 1,
         "height": 1,
@@ -4728,21 +4728,6 @@
         ]
     },
     {
-        "name": "Swastika",
-        "authors": [
-            "unknown"
-        ],
-        "width": 1,
-        "height": 1,
-        "maps": [
-            {
-                "x": 0,
-                "y": 0,
-                "id": 1256
-            }
-        ]
-    },
-    {
         "name": "System 95",
         "authors": [
             "GrandeBaguette"
@@ -4895,7 +4880,7 @@
     {
         "name": "The Comedian's Badge",
         "authors": [
-            "unknown"
+            "laxdude1721"
         ],
         "width": 1,
         "height": 1,
@@ -5398,9 +5383,9 @@
         ]
     },
     {
-        "name": "Tongue",
+        "name": "The Rolling Stones",
         "authors": [
-            "unknown"
+            "Astrokie"
         ],
         "width": 1,
         "height": 1,
@@ -5413,9 +5398,9 @@
         ]
     },
     {
-        "name": "Tree",
+        "name": "Yggdrasil",
         "authors": [
-            "unknown"
+            "HoneycombCake"
         ],
         "width": 1,
         "height": 1,
@@ -5690,7 +5675,7 @@
     {
         "name": "Vault Boy",
         "authors": [
-            "unknown"
+            "MH"
         ],
         "width": 1,
         "height": 1,
@@ -5765,7 +5750,7 @@
     {
         "name": "Vote Hayor 2019",
         "authors": [
-            "Gecko501"
+            "Hayor"
         ],
         "width": 1,
         "height": 1,
@@ -5920,7 +5905,7 @@
     {
         "name": "White Girls",
         "authors": [
-            "unknown"
+            "CuBoyd"
         ],
         "width": 1,
         "height": 1,
@@ -5950,7 +5935,7 @@
     {
         "name": "Xaxaar",
         "authors": [
-            "unknown"
+            "Astrokie"
         ],
         "width": 2,
         "height": 2,
