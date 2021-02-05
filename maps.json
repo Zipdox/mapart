@@ -1203,6 +1203,21 @@
         ]
     },
     {
+        "name": "Cowpie",
+        "authors": [
+            "_aok3"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 15426
+            }
+        ]
+    },
+    {
         "name": "Creeporium",
         "authors": [
             "dmonki"
@@ -5089,6 +5104,21 @@
                 "x": 1,
                 "y": 1,
                 "id": 6780
+            }
+        ]
+    },
+    {
+        "name": "The Haunted Mattress",
+        "authors": [
+            "Hoode"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 9021
             }
         ]
     },
