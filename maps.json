@@ -1098,6 +1098,21 @@
         ]
     },
     {
+        "name": "Cat Burglar Nami",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 21169
+            }
+        ]
+    },
+    {
         "name": "Che Boxxy",
         "authors": [
             "Astrokie"
@@ -1188,6 +1203,20 @@
         ]
     },
     {
+        "name": "Constantiam Hotel Public Mapart",
+        "authors": [
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 15873
+            }
+        ]
+    },
+    {
         "name": "Constantiam Quarterly",
         "authors": [
             "Nyroc_"
@@ -1199,6 +1228,21 @@
                 "x": 0,
                 "y": 0,
                 "id": 4563
+            }
+        ]
+    },
+    {
+        "name": "Cotton Candy Lover Chopper",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 21206
             }
         ]
     },
@@ -2154,6 +2198,21 @@
         ]
     },
     {
+        "name": "God Usopp",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 20967
+            }
+        ]
+    },
+    {
         "name": "Guevara",
         "authors": [
             "James_Rustles"
@@ -2630,6 +2689,21 @@
                 "x": 0,
                 "y": 0,
                 "id": 30410
+            }
+        ]
+    },
+    {
+        "name": "King of the Pirates Monkey D. Luffy",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 20814
             }
         ]
     },
