@@ -206,6 +206,36 @@
         ]
     },
     {
+        "name": "Aerosmith's Permanent Vacation",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 2,
+        "height": 2,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 22381
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "id": 22380
+            },
+            {
+                "x": 0,
+                "y": 1,
+                "id": 22382
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "id": 22383
+            }
+        ]
+    },
+    {
         "name": "Ahegao",
         "authors": [
             "kittychew"
@@ -4732,6 +4762,21 @@
                 "x": 1,
                 "y": 2,
                 "id": 21035
+            }
+        ]
+    },
+    {
+        "name": "sam <3",
+        "authors": [
+            "curlminion"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 22668
             }
         ]
     },
