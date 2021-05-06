@@ -312,6 +312,21 @@
         ]
     },
     {
+        "name": "Amogus",
+        "authors": [
+            "popbob__"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 23288
+            }
+        ]
+    },
+    {
         "name": "Android",
         "authors": [
             "Hayor"
