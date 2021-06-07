@@ -5041,6 +5041,21 @@
         ]
     },
     {
+        "name": "sam <3 improved",
+        "authors": [
+            "curlminion"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 22670
+            }
+        ]
+    },
+    {
         "name": "SMX",
         "authors": [
             "unknown"
