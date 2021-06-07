@@ -2206,6 +2206,21 @@
         ]
     },
     {
+        "name": "First Son of the Sea Jimbei",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 23255
+            }
+        ]
+    },
+    {
         "name": "Fitmc",
         "authors": [
             "unknown"
@@ -2813,6 +2828,21 @@
                 "x": 0,
                 "y": 0,
                 "id": 21292
+            }
+        ]
+    },
+    {
+        "name": "Iron Man Franky",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 23209
             }
         ]
     },
@@ -3500,6 +3530,21 @@
                 "x": 1,
                 "y": 2,
                 "id": 8813
+            }
+        ]
+    },
+    {
+        "name": "Moving Picture Show",
+        "authors": [
+            "Garbage0racle"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 23463
             }
         ]
     },
@@ -5287,6 +5332,21 @@
         ]
     },
     {
+        "name": "Soul King Brook",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 20429
+            }
+        ]
+    },
+    {
         "name": "Soviet Girl",
         "authors": [
             "lighttherock"
@@ -5378,6 +5438,21 @@
                 "x": 0,
                 "y": 0,
                 "id": 1137
+            }
+        ]
+    },
+    {
+        "name": "Strongest Swordsman Roronoa Zoro",
+        "authors": [
+            "Redhawk76"
+        ],
+        "width": 1,
+        "height": 1,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 20433
             }
         ]
     },
@@ -5868,6 +5943,36 @@
                 "x": 0,
                 "y": 0,
                 "id": 19283
+            }
+        ]
+    },
+    {
+        "name": "The One Ring™",
+        "authors": [
+            "NeemaHD"
+        ],
+        "width": 2,
+        "height": 2,
+        "maps": [
+            {
+                "x": 0,
+                "y": 0,
+                "id": 23401
+            },
+            {
+                "x": 1, 
+                "y": 0,
+                "id": 23398
+            },
+            {
+                "x": 0,
+                "y": 1,
+                "id": 23399
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "id": 23387
             }
         ]
     },
