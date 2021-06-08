@@ -34,6 +34,7 @@ for(y = 0; y < lines.length; y++){
 
 console.log(JSON.stringify(maps, null, 4));
 for(id of ids){
-    console.log('Moving', id);
-    fs.renameSync(`temp/${id}.bin`, `maps/${id}.bin`);
+    // console.log('Moving', id);
+    // fs.renameSync(`temp/${id}.bin`, `maps/${id}.bin`);
+    console.log(id);
 }
