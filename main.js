@@ -23,16 +23,16 @@ window.onload = async function(){
         switch(sortParameter){
             case 'name':
                 if(!invertSort.name){
-                    sortedMaps.sort((a, b) => (a.name > b.name) ? 1 : -1);
+                    sortedMaps.sort((a, b) => a.name.localeCompare(b.name));
                 }else{
-                    sortedMaps.sort((a, b) => (a.name < b.name) ? 1 : -1);
+                    sortedMaps.sort((a, b) => -a.name.localeCompare(b.name));
                 }
                 break;
             case 'authors':
                 if(!invertSort.authors){
-                    sortedMaps.sort((a, b) => (a.authors.join(', ') > b.authors.join(', ')) ? 1 : -1);
+                    sortedMaps.sort((a, b) => a.authors.join(', ').localeCompare(b.authors.join(', ')));
                 }else{
-                    sortedMaps.sort((a, b) => (a.authors.join(', ') < b.authors.join(', ')) ? 1 : -1);
+                    sortedMaps.sort((a, b) => -a.authors.join(', ').localeCompare(b.authors.join(', ')));
                 }
                 break;
             case 'size':
@@ -108,7 +108,7 @@ window.onload = async function(){
     quality.onchange = async function(){
         if(shownMap == undefined) return;
         maptitle.innerHTML = shownMap.name;
-        mapAuthor.innerHTML = shownMap.authors.join(', ');
+        mapAuthor.textContent = 'By ' + shownMap.authors.join(', ');
         if(!sizeCanvas(shownMap.width, shownMap.height, quality.value)) return;
         drawMap(shownMap);
         window.location.hash = "#" + encodeURIComponent(shownMap.name);
@@ -156,7 +156,7 @@ window.onload = async function(){
 
         window.shownMap = foundMap;
         maptitle.innerHTML = foundMap.name;
-        mapAuthor.innerHTML = foundMap.authors.join(', ');
+        mapAuthor.textContent = 'By ' + foundMap.authors.join(', ');
         sizeCanvas(foundMap.width, foundMap.height, quality.value);
         drawMap(foundMap);
     }

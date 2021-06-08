@@ -10,7 +10,7 @@ function createEntry(selectedMap){
 
     entry.onclick = async function(){
         maptitle.innerHTML = selectedMap.name;
-        mapAuthor.innerHTML = selectedMap.authors.join(', ');
+        mapAuthor.textContent = 'By ' + selectedMap.authors.join(', ');
         if(!sizeCanvas(selectedMap.width, selectedMap.height, quality.value)) return;
         drawMap(selectedMap);
         window.shownMap = selectedMap;
