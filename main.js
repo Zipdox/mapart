@@ -110,30 +110,29 @@ window.onload = async function(){
         maptitle.innerHTML = shownMap.name;
         mapAuthor.innerHTML = shownMap.authors.join(', ');
         if(!sizeCanvas(shownMap.width, shownMap.height, quality.value)) return;
-        for(mapPiece of shownMap.maps){
-            const selectedMapData = await getMapData(mapPiece.id);
-            const selectedMapImage = renderImage(selectedMapData);
-            printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
-        }
+        drawMap(shownMap);
         window.location.hash = "#" + encodeURIComponent(shownMap.name);
     }
 
-    searchBar.addEventListener("keyup", function(event) {
-        for(i = mapslist.children.length - 1; i>=0; i--){
-            if(mapslist.children[i].className == "entry") mapslist.children[i].remove();
-        }
-        var mapResults = [];
-        for(selectedMap of mapData){
-            const queryWords = this.value.toLowerCase().split(' ');
-            var match = true;
-            for(word of queryWords){
-                if(!selectedMap.name.toLowerCase().includes(word) && !selectedMap.authors.join(', ').toLowerCase().includes(word)) match = false;
+    searchBar.onkeyup = function(){
+        if(window.searchTimeout) clearTimeout(searchTimeout);
+        window.searchTimeout = setTimeout(function(){
+            for(i = mapslist.children.length - 1; i>=0; i--){
+                if(mapslist.children[i].className == "entry") mapslist.children[i].remove();
             }
-            if(match) mapResults.push(selectedMap);
-        }
-        currentMaps = mapResults;
-        loadTable(sortBy(mapResults))
-    });
+            var mapResults = [];
+            for(selectedMap of mapData){
+                const queryWords = searchBar.value.toLowerCase().split(' ');
+                var match = true;
+                for(word of queryWords){
+                    if(!selectedMap.name.toLowerCase().includes(word) && !selectedMap.authors.join(', ').toLowerCase().includes(word)) match = false;
+                }
+                if(match) mapResults.push(selectedMap);
+            }
+            currentMaps = mapResults;
+            loadTable(sortBy(mapResults));
+        }, 500);
+    }
     
     canvas.onclick = function(){
         const downloadLink = document.createElement('a');
@@ -159,10 +158,6 @@ window.onload = async function(){
         maptitle.innerHTML = foundMap.name;
         mapAuthor.innerHTML = foundMap.authors.join(', ');
         sizeCanvas(foundMap.width, foundMap.height, quality.value);
-        for(mapPiece of foundMap.maps){
-            const selectedMapData = await getMapData(mapPiece.id);
-            const selectedMapImage = renderImage(selectedMapData);
-            printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
-        }
+        drawMap(foundMap);
     }
 }
