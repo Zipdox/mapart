@@ -14,7 +14,7 @@ function createEntry(selectedMap){
         if(!sizeCanvas(selectedMap.width, selectedMap.height, quality.value)) return;
         drawMap(selectedMap);
         window.shownMap = selectedMap;
-        window.location.hash = "#" + encodeURIComponent(selectedMap.name);
+        window.location.hash = "#" + encodeURIComponent(selectedMap.name).replace(/\./g, '%2e');
     }
     return entry;
 }

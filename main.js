@@ -111,7 +111,7 @@ window.onload = async function(){
         mapAuthor.textContent = 'By ' + shownMap.authors.join(', ');
         if(!sizeCanvas(shownMap.width, shownMap.height, quality.value)) return;
         drawMap(shownMap);
-        window.location.hash = "#" + encodeURIComponent(shownMap.name);
+        window.location.hash = "#" + encodeURIComponent(shownMap.name).replace(/\./g, '%2e');
     }
 
     searchBar.onkeyup = function(){
