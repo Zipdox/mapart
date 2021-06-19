@@ -3,6 +3,7 @@ function createEntry(selectedMap){
     entry.className = "entry";
     const entryTitle = entry.insertCell();
     entryTitle.textContent = selectedMap.name;
+    if(selectedMap.nsfw) entryTitle.innerHTML += ' <b style="color: red;">NSFW</b>';
     const entryAuthors = entry.insertCell();
     entryAuthors.textContent = selectedMap.authors.join(', ');
     const entrySize = entry.insertCell();

@@ -6,6 +6,11 @@ async function getMapData(mapId){
 }
 
 function drawMap(map){
+    if(map.nsfw && !localStorage.allowNSFW){
+        if(!confirm("This map is NSFW, do you accept to view NSFW maps?\n\nYour choice will be remembered.")){
+            return;
+        }else localStorage.allowNSFW = true;
+    }
     map.maps.forEach(async mapPiece =>{
         (async function(){
             const selectedMapData = await getMapData(mapPiece.id);
