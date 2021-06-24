@@ -14,7 +14,7 @@ function drawMap(map){
     map.maps.forEach(async mapPiece =>{
         (async function(){
             const selectedMapData = await getMapData(mapPiece.id);
-            const selectedMapImage = renderImage(selectedMapData);
+            const selectedMapImage = renderImage(selectedMapData, mapPiece.rotation);
             printImage(canvas, selectedMapImage, quality.value, mapPiece.x, mapPiece.y);
         })();
     });

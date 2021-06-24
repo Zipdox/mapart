@@ -209,12 +209,26 @@ const mapColors = {
     "207": [19, 11, 8]
 }
 
-function renderImage(mapColorData){
+function renderImage(mapColorData, rotation){
     var imagePixelArray = new Uint8ClampedArray(128*128*4);
     for(pixelIndex = 0; pixelIndex < 16384; pixelIndex++){
         var pixelColor = mapColors[mapColorData[pixelIndex]];
-        imagePixelArray.set(pixelColor, pixelIndex*4);
-        imagePixelArray[pixelIndex*4+3] = 255;
+        var transformed = pixelIndex;
+        switch(rotation){
+            case 1:
+                transformed = (pixelIndex % 128) * 128 + 127 - Math.floor(pixelIndex / 128);
+                break;
+            case 2:
+                transformed = 16383 - pixelIndex;
+                break;
+            case 3:
+                transformed = (127 - pixelIndex % 128) * 128 + Math.floor(pixelIndex / 128);
+                break;
+            default:
+                break;
+        }
+        imagePixelArray.set(pixelColor, transformed * 4);
+        imagePixelArray[transformed * 4 + 3] = 255;
     }
     return new ImageData(imagePixelArray, 128, 128);
 }
